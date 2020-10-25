@@ -4,11 +4,24 @@
     <ul id="nav-mobile" class="right hide-on-med-and-down">
       <li><%= link_to 'Gestor', graphics_gestor_path %></li>
       <li><%= link_to 'Analista de produtos', graphics_analista_path %></li>
-      <li><a href="#">Documentação</a></li>
+      <li><a href="https://github.com/mariadiniz/datalore">Documentação</a></li>
     </ul>
   </div>
 </nav>
 
-<%= line_chart Devolution.group_by_minute(:created_at).count %>
+<div class="row col s12">
+  <div class="col s1"></div>
+  <div class="col s6 card-panel">
+    <%= line_chart Devolution.group_by_minute(:created_at).count, label: 'Chegada das devoluções', xtitle: "Horário de chegada", ytitle: "Devoluções"%>
+  </div>
+  <div class="col s4 card-panel">
+    <%= pie_chart( Devolution.group(:status).count ) %>
+  </div>
+  <div class="col s1"></div>
+</div>
 
-<%= pie_chart({"Estoque" => 90, "Reciclagem" => 10}) %>
+<div class="row col s12">
+  <div class="col s3"></div>
+  <div class="col s6 card-panel"><%= bar_chart Devolution.group(:product).count %></div>
+  <div class="col s3"></div>
+</div>

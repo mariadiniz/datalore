@@ -3373,3 +3373,822 @@ Processing by GraphicsController#gestor as HTML
 Completed 200 OK in 71ms (Views: 57.7ms | ActiveRecord: 1.1ms | Allocations: 10182)
 
 
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:14:32 -0300
+  
+LoadError (cannot load such file -- /home/maria/Documentos/projetos/mercadolivre/datalore/config/routes.rb):
+  
+bootsnap (1.4.8) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:59:in `load'
+bootsnap (1.4.8) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:59:in `load'
+railties (6.0.3.4) lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+railties (6.0.3.4) lib/rails/application/routes_reloader.rb:40:in `each'
+railties (6.0.3.4) lib/rails/application/routes_reloader.rb:40:in `load_paths'
+railties (6.0.3.4) lib/rails/application/routes_reloader.rb:20:in `reload!'
+railties (6.0.3.4) lib/rails/application/routes_reloader.rb:29:in `block in updater'
+activesupport (6.0.3.4) lib/active_support/file_update_checker.rb:83:in `execute'
+railties (6.0.3.4) lib/rails/application/routes_reloader.rb:10:in `execute'
+railties (6.0.3.4) lib/rails/application/finisher.rb:197:in `block (2 levels) in <module:Finisher>'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:428:in `instance_exec'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:428:in `block in make_lambda'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:200:in `block (2 levels) in halting'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:605:in `block (2 levels) in default_terminator'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:604:in `catch'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:604:in `block in default_terminator'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:201:in `block in halting'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:513:in `block in invoke_before'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:513:in `each'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:513:in `invoke_before'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:134:in `run_callbacks'
+activesupport (6.0.3.4) lib/active_support/execution_wrapper.rb:111:in `run!'
+activesupport (6.0.3.4) lib/active_support/reloader.rb:114:in `run!'
+activesupport (6.0.3.4) lib/active_support/execution_wrapper.rb:73:in `block in run!'
+activesupport (6.0.3.4) lib/active_support/execution_wrapper.rb:70:in `tap'
+activesupport (6.0.3.4) lib/active_support/execution_wrapper.rb:70:in `run!'
+activesupport (6.0.3.4) lib/active_support/reloader.rb:63:in `run!'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/maria/Documentos/projetos/datalore/config/environment.rb:5)
+Started GET "/graphics/index" for ::1 at 2020-10-25 09:15:19 -0300
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  Rendered graphics/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 466)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 74ms (Views: 59.8ms | ActiveRecord: 0.0ms | Allocations: 13113)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:17:15 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:12
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 14.2ms | Allocations: 2985)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 76ms (Views: 33.0ms | ActiveRecord: 1.8ms | Allocations: 12127)
+
+
+Started GET "/graphics/analista" for ::1 at 2020-10-25 09:17:15 -0300
+Processing by GraphicsController#analista as HTML
+  Rendering graphics/analista.html.erb within layouts/application
+  Rendered graphics/analista.html.erb within layouts/application (Duration: 2.9ms | Allocations: 283)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 26.5ms | ActiveRecord: 0.0ms | Allocations: 5785)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:17:17 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:12
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 27.3ms | Allocations: 2799)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 78ms (Views: 55.5ms | ActiveRecord: 2.0ms | Allocations: 9104)
+
+
+Started GET "/graphics/analista" for ::1 at 2020-10-25 09:17:18 -0300
+Processing by GraphicsController#analista as HTML
+  Rendering graphics/analista.html.erb within layouts/application
+  Rendered graphics/analista.html.erb within layouts/application (Duration: 0.7ms | Allocations: 85)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 26.5ms | ActiveRecord: 0.0ms | Allocations: 5482)
+
+
+Started GET "/graphics/analista" for ::1 at 2020-10-25 09:17:19 -0300
+Processing by GraphicsController#analista as HTML
+  Rendering graphics/analista.html.erb within layouts/application
+  Rendered graphics/analista.html.erb within layouts/application (Duration: 0.8ms | Allocations: 86)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms | Allocations: 5469)
+
+
+Started GET "/graphics/analista" for ::1 at 2020-10-25 09:17:19 -0300
+Processing by GraphicsController#analista as HTML
+  Rendering graphics/analista.html.erb within layouts/application
+  Rendered graphics/analista.html.erb within layouts/application (Duration: 0.8ms | Allocations: 85)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 28.7ms | ActiveRecord: 0.0ms | Allocations: 5476)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:17:20 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:12
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 14.4ms | Allocations: 2798)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 33.3ms | ActiveRecord: 1.2ms | Allocations: 9092)
+
+
+Started GET "/graphics/index" for ::1 at 2020-10-25 09:17:22 -0300
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  Rendered graphics/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 127)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 23.2ms | ActiveRecord: 0.0ms | Allocations: 5525)
+
+
+Started GET "/graphics/index" for ::1 at 2020-10-25 09:17:24 -0300
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  Rendered graphics/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 127)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 33.6ms | ActiveRecord: 0.0ms | Allocations: 5523)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:18:34 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:12
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 16.2ms | Allocations: 2798)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 52ms (Views: 42.8ms | ActiveRecord: 0.9ms | Allocations: 9078)
+
+
+Started GET "/graphics/analista" for ::1 at 2020-10-25 09:18:36 -0300
+Processing by GraphicsController#analista as HTML
+  Rendering graphics/analista.html.erb within layouts/application
+  Rendered graphics/analista.html.erb within layouts/application (Duration: 1.0ms | Allocations: 85)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 46.5ms | ActiveRecord: 0.0ms | Allocations: 5543)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:18:37 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:12
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 12.4ms | Allocations: 2801)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 29.6ms | ActiveRecord: 0.7ms | Allocations: 9079)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:19:46 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:12
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 28.5ms | Allocations: 2798)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 65ms (Views: 51.2ms | ActiveRecord: 1.5ms | Allocations: 9108)
+
+
+Started GET "/graphics/analista" for ::1 at 2020-10-25 09:19:47 -0300
+Processing by GraphicsController#analista as HTML
+  Rendering graphics/analista.html.erb within layouts/application
+  Rendered graphics/analista.html.erb within layouts/application (Duration: 0.6ms | Allocations: 85)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms | Allocations: 5478)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:19:48 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:12
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 15.5ms | Allocations: 2798)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 42.6ms | ActiveRecord: 0.9ms | Allocations: 9074)
+
+
+Started GET "/graphics/index" for ::1 at 2020-10-25 09:19:50 -0300
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  Rendered graphics/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 127)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 30.7ms | ActiveRecord: 0.0ms | Allocations: 5517)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:19:54 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:12
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 10.9ms | Allocations: 2798)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 28.7ms | ActiveRecord: 0.8ms | Allocations: 9078)
+
+
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/maria/Documentos/projetos/datalore/config/environment.rb:5)
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (1.1ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Desistência"], ["status", "Estoque"], ["created_at", "2020-10-25 12:20:43.275052"], ["updated_at", "2020-10-25 12:20:43.275052"]]
+  [1m[35m (8.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (1.2ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Desistência"], ["status", "Estoque"], ["created_at", "2020-10-25 12:20:58.087150"], ["updated_at", "2020-10-25 12:20:58.087150"]]
+  [1m[35m (7.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (1.2ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Desistência"], ["status", "Estoque"], ["created_at", "2020-10-25 12:20:59.084477"], ["updated_at", "2020-10-25 12:20:59.084477"]]
+  [1m[35m (7.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (2.4ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Desistência"], ["status", "Estoque"], ["created_at", "2020-10-25 12:20:59.971108"], ["updated_at", "2020-10-25 12:20:59.971108"]]
+  [1m[35m (9.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (2.0ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Desistência"], ["status", "Estoque"], ["created_at", "2020-10-25 12:21:01.119943"], ["updated_at", "2020-10-25 12:21:01.119943"]]
+  [1m[35m (11.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (1.3ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Mau uso"], ["status", "Reciclagem"], ["created_at", "2020-10-25 12:21:23.598683"], ["updated_at", "2020-10-25 12:21:23.598683"]]
+  [1m[35m (7.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (0.8ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Mau uso"], ["status", "Reciclagem"], ["created_at", "2020-10-25 12:21:25.222994"], ["updated_at", "2020-10-25 12:21:25.222994"]]
+  [1m[35m (9.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (0.7ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Mau uso"], ["status", "Reciclagem"], ["created_at", "2020-10-25 12:21:26.346083"], ["updated_at", "2020-10-25 12:21:26.346083"]]
+  [1m[35m (7.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (1.2ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Mau uso"], ["status", "Reciclagem"], ["created_at", "2020-10-25 12:21:26.996877"], ["updated_at", "2020-10-25 12:21:26.996877"]]
+  [1m[35m (10.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (0.7ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Mau uso"], ["status", "Reciclagem"], ["created_at", "2020-10-25 12:21:27.619675"], ["updated_at", "2020-10-25 12:21:27.619675"]]
+  [1m[35m (10.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (0.7ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Mau uso"], ["status", "Reciclagem"], ["created_at", "2020-10-25 12:21:28.110008"], ["updated_at", "2020-10-25 12:21:28.110008"]]
+  [1m[35m (5.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (2.1ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Mau uso"], ["status", "Reciclagem"], ["created_at", "2020-10-25 12:21:29.012877"], ["updated_at", "2020-10-25 12:21:29.012877"]]
+  [1m[35m (6.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (2.1ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Mau uso"], ["status", "Reciclagem"], ["created_at", "2020-10-25 12:21:29.877230"], ["updated_at", "2020-10-25 12:21:29.877230"]]
+  [1m[35m (7.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (0.6ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Mau uso"], ["status", "Reciclagem"], ["created_at", "2020-10-25 12:21:30.550285"], ["updated_at", "2020-10-25 12:21:30.550285"]]
+  [1m[35m (9.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (1.1ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Mau uso"], ["status", "Reciclagem"], ["created_at", "2020-10-25 12:21:31.201117"], ["updated_at", "2020-10-25 12:21:31.201117"]]
+  [1m[35m (9.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (1.8ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Mau uso"], ["status", "Reciclagem"], ["created_at", "2020-10-25 12:21:31.910466"], ["updated_at", "2020-10-25 12:21:31.910466"]]
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (7.5ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Mau uso"], ["status", "Reciclagem"], ["created_at", "2020-10-25 12:21:32.491188"], ["updated_at", "2020-10-25 12:21:32.491188"]]
+  [1m[35m (7.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (3.3ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Mau uso"], ["status", "Reciclagem"], ["created_at", "2020-10-25 12:21:33.018713"], ["updated_at", "2020-10-25 12:21:33.018713"]]
+  [1m[35m (12.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (0.5ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Mau uso"], ["status", "Reciclagem"], ["created_at", "2020-10-25 12:21:33.797819"], ["updated_at", "2020-10-25 12:21:33.797819"]]
+  [1m[35m (35.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (1.2ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Mau uso"], ["status", "Reciclagem"], ["created_at", "2020-10-25 12:21:35.030256"], ["updated_at", "2020-10-25 12:21:35.030256"]]
+  [1m[35m (12.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (0.5ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Samsung A51"], ["motive", "Mau uso"], ["status", "Reciclagem"], ["created_at", "2020-10-25 12:21:58.618733"], ["updated_at", "2020-10-25 12:21:58.618733"]]
+  [1m[35m (6.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (0.5ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Samsung A51"], ["motive", "Mau uso"], ["status", "Reciclagem"], ["created_at", "2020-10-25 12:21:59.980678"], ["updated_at", "2020-10-25 12:21:59.980678"]]
+  [1m[35m (12.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (1.1ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Samsung A51"], ["motive", "Mau uso"], ["status", "Reciclagem"], ["created_at", "2020-10-25 12:22:00.528911"], ["updated_at", "2020-10-25 12:22:00.528911"]]
+  [1m[35m (8.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (8.4ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Samsung A51"], ["motive", "Produto não batia com a descrição"], ["status", "Estoque"], ["created_at", "2020-10-25 12:22:22.873532"], ["updated_at", "2020-10-25 12:22:22.873532"]]
+  [1m[35m (7.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (1.0ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Samsung A51"], ["motive", "Produto não batia com a descrição"], ["status", "Estoque"], ["created_at", "2020-10-25 12:22:23.898468"], ["updated_at", "2020-10-25 12:22:23.898468"]]
+  [1m[35m (168.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (0.8ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Samsung A51"], ["motive", "Produto não batia com a descrição"], ["status", "Estoque"], ["created_at", "2020-10-25 12:22:24.370903"], ["updated_at", "2020-10-25 12:22:24.370903"]]
+  [1m[35m (11.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (1.9ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Samsung A51"], ["motive", "Produto não batia com a descrição"], ["status", "Estoque"], ["created_at", "2020-10-25 12:22:24.777259"], ["updated_at", "2020-10-25 12:22:24.777259"]]
+  [1m[35m (8.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (1.0ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Samsung A51"], ["motive", "Produto não batia com a descrição"], ["status", "Estoque"], ["created_at", "2020-10-25 12:22:25.150181"], ["updated_at", "2020-10-25 12:22:25.150181"]]
+  [1m[35m (5.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (0.4ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Samsung A51"], ["motive", "Produto não batia com a descrição"], ["status", "Estoque"], ["created_at", "2020-10-25 12:22:25.541537"], ["updated_at", "2020-10-25 12:22:25.541537"]]
+  [1m[35m (6.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (0.6ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Samsung A51"], ["motive", "Produto não batia com a descrição"], ["status", "Estoque"], ["created_at", "2020-10-25 12:22:25.956424"], ["updated_at", "2020-10-25 12:22:25.956424"]]
+  [1m[35m (7.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (0.6ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Samsung A51"], ["motive", "Produto não batia com a descrição"], ["status", "Estoque"], ["created_at", "2020-10-25 12:22:26.361878"], ["updated_at", "2020-10-25 12:22:26.361878"]]
+  [1m[35m (14.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (1.4ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Samsung A51"], ["motive", "Produto não batia com a descrição"], ["status", "Estoque"], ["created_at", "2020-10-25 12:22:26.753201"], ["updated_at", "2020-10-25 12:22:26.753201"]]
+  [1m[35m (6.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (1.9ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Samsung A51"], ["motive", "Produto não batia com a descrição"], ["status", "Estoque"], ["created_at", "2020-10-25 12:22:27.135936"], ["updated_at", "2020-10-25 12:22:27.135936"]]
+  [1m[35m (10.2ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:22:29 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:12
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 14.6ms | Allocations: 4624)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 30.5ms | ActiveRecord: 1.0ms | Allocations: 10955)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:23:37 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:00:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_00_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:00:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:12
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 12.9ms | Allocations: 1542)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 51ms (Views: 43.2ms | ActiveRecord: 1.5ms | Allocations: 8801)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:24:49 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:12
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 27.0ms | Allocations: 4798)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 57ms (Views: 50.4ms | ActiveRecord: 1.1ms | Allocations: 11980)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:24:51 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:12
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 22.8ms | Allocations: 4625)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 64ms (Views: 56.8ms | ActiveRecord: 1.0ms | Allocations: 10902)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:25:13 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:13
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 24.9ms | Allocations: 4794)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 61ms (Views: 46.0ms | ActiveRecord: 1.2ms | Allocations: 11966)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:25:14 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:13
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 14.2ms | Allocations: 4625)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 41ms (Views: 34.5ms | ActiveRecord: 0.9ms | Allocations: 10912)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:25:15 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:13
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 29.3ms | Allocations: 4618)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 50ms (Views: 44.3ms | ActiveRecord: 1.5ms | Allocations: 10888)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:25:31 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:13
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 26.7ms | Allocations: 4792)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 62ms (Views: 55.6ms | ActiveRecord: 1.2ms | Allocations: 11981)
+
+
+Started GET "/graphics/index" for ::1 at 2020-10-25 09:26:28 -0300
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  Rendered graphics/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 311)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 27.9ms | ActiveRecord: 0.0ms | Allocations: 5859)
+
+
+Started GET "/graphics/analista" for ::1 at 2020-10-25 09:27:19 -0300
+Processing by GraphicsController#analista as HTML
+  Rendering graphics/analista.html.erb within layouts/application
+  Rendered graphics/analista.html.erb within layouts/application (Duration: 2.5ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 24.5ms | ActiveRecord: 0.0ms | Allocations: 5858)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:31:11 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:13
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 28.3ms | Allocations: 4803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 67ms (Views: 58.1ms | ActiveRecord: 1.5ms | Allocations: 12063)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:32:58 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:14
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 16.2ms | Allocations: 4801)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 48.7ms | ActiveRecord: 0.8ms | Allocations: 12005)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:32:59 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:14
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 25.8ms | Allocations: 4625)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 55ms (Views: 47.7ms | ActiveRecord: 1.6ms | Allocations: 10892)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:33:51 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:14
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 28.4ms | Allocations: 4802)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 60ms (Views: 51.7ms | ActiveRecord: 1.7ms | Allocations: 11992)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:33:52 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (9.3ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:14
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 15.6ms | Allocations: 4625)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 52ms (Views: 32.9ms | ActiveRecord: 9.7ms | Allocations: 10902)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:35:11 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:14
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 18.8ms | Allocations: 4800)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 56ms (Views: 40.9ms | ActiveRecord: 1.5ms | Allocations: 11990)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:35:40 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:15
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 18.7ms | Allocations: 4804)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 46ms (Views: 41.8ms | ActiveRecord: 0.7ms | Allocations: 11993)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:42:31 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:15
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 29.8ms | Allocations: 4819)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 65ms (Views: 51.4ms | ActiveRecord: 1.6ms | Allocations: 12066)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:42:34 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:15
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 20.7ms | Allocations: 4646)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 58ms (Views: 50.7ms | ActiveRecord: 0.8ms | Allocations: 11001)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:44:01 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:15
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 26.4ms | Allocations: 4855)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 63ms (Views: 55.7ms | ActiveRecord: 1.4ms | Allocations: 12049)
+
+
+Started GET "/graphics/analista" for ::1 at 2020-10-25 09:53:01 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by GraphicsController#analista as HTML
+  Rendering graphics/analista.html.erb within layouts/application
+  Rendered graphics/analista.html.erb within layouts/application (Duration: 3.0ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 25.4ms | ActiveRecord: 0.0ms | Allocations: 5781)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:53:03 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:15
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 28.5ms | Allocations: 4659)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 67ms (Views: 51.7ms | ActiveRecord: 2.1ms | Allocations: 10945)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:55:35 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:15
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 388.5ms | Allocations: 91126)
+Completed 500 Internal Server Error in 403ms (ActiveRecord: 1.2ms | Allocations: 93145)
+
+
+  
+ActionView::Template::Error (undefined method `Devolution' for #<#<Class:0x00007f5e580e3c20>:0x00007f5e580e2348>):
+    20:   <div class="col s1"></div>
+    21: </div>
+    22: 
+    23: <%= column_chart Devolution(:product).count %>
+  
+app/views/graphics/gestor.html.erb:23
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:56:06 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:15
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 23.6ms | Allocations: 5732)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 1.1ms | Allocations: 7829)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 0)):
+    20:   <div class="col s1"></div>
+    21: </div>
+    22: 
+    23: <%= column_chart Devolution.all(:product).count %>
+  
+app/views/graphics/gestor.html.erb:23
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:56:23 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:15
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "devolutions"[0m
+  ↳ app/views/graphics/gestor.html.erb:23
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 29.5ms | Allocations: 5583)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 45.8ms | ActiveRecord: 1.7ms | Allocations: 12861)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:57:51 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (4.6ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:15
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 18.2ms | Allocations: 4849)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 57ms (Views: 39.5ms | ActiveRecord: 5.2ms | Allocations: 12023)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 09:59:36 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:15
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, "devolutions"."product" AS devolutions_product FROM "devolutions" GROUP BY "devolutions"."product"[0m
+  ↳ app/views/graphics/gestor.html.erb:23
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 18.4ms | Allocations: 5723)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 47ms (Views: 40.9ms | ActiveRecord: 1.5ms | Allocations: 12911)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 10:00:40 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:15
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, "devolutions"."product" AS devolutions_product FROM "devolutions" GROUP BY "devolutions"."product"[0m
+  ↳ app/views/graphics/gestor.html.erb:24
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 27.7ms | Allocations: 5721)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 63ms (Views: 53.8ms | ActiveRecord: 1.5ms | Allocations: 12914)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 10:01:09 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:15
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, "devolutions"."product" AS devolutions_product FROM "devolutions" GROUP BY "devolutions"."product"[0m
+  ↳ app/views/graphics/gestor.html.erb:25
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 33.0ms | Allocations: 5735)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 62ms (Views: 55.5ms | ActiveRecord: 1.5ms | Allocations: 12922)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 10:06:43 -0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:15
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, "devolutions"."status" AS devolutions_status FROM "devolutions" GROUP BY "devolutions"."status"[0m
+  ↳ app/views/graphics/gestor.html.erb:18
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, "devolutions"."product" AS devolutions_product FROM "devolutions" GROUP BY "devolutions"."product"[0m
+  ↳ app/views/graphics/gestor.html.erb:25
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 36.1ms | Allocations: 6443)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 68ms (Views: 52.9ms | ActiveRecord: 2.9ms | Allocations: 13626)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 10:06:54 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:15
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, "devolutions"."status" AS devolutions_status FROM "devolutions" GROUP BY "devolutions"."status"[0m
+  ↳ app/views/graphics/gestor.html.erb:18
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, "devolutions"."product" AS devolutions_product FROM "devolutions" GROUP BY "devolutions"."product"[0m
+  ↳ app/views/graphics/gestor.html.erb:25
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 22.4ms | Allocations: 6244)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 51ms (Views: 33.6ms | ActiveRecord: 2.5ms | Allocations: 12535)
+
+
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (1.2ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Samsung A51"], ["motive", "Produto não batia com a descrição"], ["status", "Estoque"], ["created_at", "2020-10-25 13:07:02.996919"], ["updated_at", "2020-10-25 13:07:02.996919"]]
+  [1m[35m (17.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (0.7ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Mau uso"], ["status", "Reciclagem"], ["created_at", "2020-10-25 13:07:07.997311"], ["updated_at", "2020-10-25 13:07:07.997311"]]
+  [1m[35m (8.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (1.0ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Mau uso"], ["status", "Reciclagem"], ["created_at", "2020-10-25 13:07:09.812379"], ["updated_at", "2020-10-25 13:07:09.812379"]]
+  [1m[35m (9.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (1.3ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Mau uso"], ["status", "Reciclagem"], ["created_at", "2020-10-25 13:07:10.201085"], ["updated_at", "2020-10-25 13:07:10.201085"]]
+  [1m[35m (10.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (8.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (0.5ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Mau uso"], ["status", "Reciclagem"], ["created_at", "2020-10-25 13:07:10.563663"], ["updated_at", "2020-10-25 13:07:10.563663"]]
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (0.9ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Mau uso"], ["status", "Reciclagem"], ["created_at", "2020-10-25 13:07:10.931995"], ["updated_at", "2020-10-25 13:07:10.931995"]]
+  [1m[35m (8.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (2.2ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Mau uso"], ["status", "Reciclagem"], ["created_at", "2020-10-25 13:07:11.303291"], ["updated_at", "2020-10-25 13:07:11.303291"]]
+  [1m[35m (11.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (0.5ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Mau uso"], ["status", "Reciclagem"], ["created_at", "2020-10-25 13:07:11.626522"], ["updated_at", "2020-10-25 13:07:11.626522"]]
+  [1m[35m (7.1ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 10:07:14 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:15
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, "devolutions"."status" AS devolutions_status FROM "devolutions" GROUP BY "devolutions"."status"[0m
+  ↳ app/views/graphics/gestor.html.erb:18
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, "devolutions"."product" AS devolutions_product FROM "devolutions" GROUP BY "devolutions"."product"[0m
+  ↳ app/views/graphics/gestor.html.erb:25
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 45.8ms | Allocations: 8005)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 70ms (Views: 61.8ms | ActiveRecord: 2.4ms | Allocations: 14300)
+
+
+Started GET "/graphics/gestor" for ::1 at 2020-10-25 10:09:14 -0300
+Processing by GraphicsController#gestor as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0') AS strftime_y_m_d_00_00_00_utc_devolutions_created_at_6_days_weekda FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d 00:00:00 UTC', "devolutions"."created_at", '-6 days', 'weekday 0')[0m
+  ↳ app/controllers/graphics_controller.rb:6:in `gestor'
+  Rendering graphics/gestor.html.erb within layouts/application
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at") AS strftime_y_m_d_h_m_00_utc_devolutions_created_at FROM "devolutions" WHERE ("devolutions"."created_at" IS NOT NULL) GROUP BY strftime('%Y-%m-%d %H:%M:00 UTC', "devolutions"."created_at")[0m
+  ↳ app/views/graphics/gestor.html.erb:15
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, "devolutions"."status" AS devolutions_status FROM "devolutions" GROUP BY "devolutions"."status"[0m
+  ↳ app/views/graphics/gestor.html.erb:18
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) AS count_all, "devolutions"."product" AS devolutions_product FROM "devolutions" GROUP BY "devolutions"."product"[0m
+  ↳ app/views/graphics/gestor.html.erb:25
+  Rendered graphics/gestor.html.erb within layouts/application (Duration: 43.1ms | Allocations: 8204)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 73ms (Views: 66.4ms | ActiveRecord: 1.7ms | Allocations: 15401)
+
+
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDevolution Create (3.3ms)[0m  [1m[32mINSERT INTO "devolutions" ("product", "motive", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product", "Iphone 7"], ["motive", "Mau uso"], ["status", "Reciclagem"], ["created_at", "2020-10-25 13:10:35.907641"], ["updated_at", "2020-10-25 13:10:35.907641"]]
+  [1m[35m (9.3ms)[0m  [1m[36mcommit transaction[0m
