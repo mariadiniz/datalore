@@ -1,0 +1,14 @@
+<nav>
+  <div class="nav-wrapper #ff8f00 amber darken-3">
+    <%= link_to 'Data Lore', graphics_index_path, :class => 'brand-logo center' %>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><%= link_to 'Gestor', graphics_gestor_path %></li>
+      <li><%= link_to 'Analista de produtos', graphics_analista_path %></li>
+      <li><a href="#">Documentação</a></li>
+    </ul>
+  </div>
+</nav>
+
+<%= line_chart Devolution.group_by_minute(:created_at).count %>
+
+<%= pie_chart({"Estoque" => 90, "Reciclagem" => 10}) %>

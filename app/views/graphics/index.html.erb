@@ -1,0 +1,25 @@
+<nav>
+  <div class="nav-wrapper #ff8f00 amber darken-3">
+    <%= link_to 'Data Lore', graphics_index_path, :class => 'brand-logo center' %>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><%= link_to 'Gestor', graphics_gestor_path %></li>
+      <li><%= link_to 'Analista de produtos', graphics_analista_path %></li>
+      <li><a href="#">Documentação</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="row">
+  <div class="col s12 m6">
+    <div class="card blue-grey darken-1">
+      <div class="card-content white-text">
+        <span class="card-title">Olá! Seja bem-vindo ao Data Lore.</span>
+        <p>Essa aplicação foi criada para ser o braço de Ciência de Dados na área de Logística Reversa do Mercado Livre. Explore o sistema para conhecer as funcionalidades e possibilidades de análise de dados que estamos criando por aqui!</p>
+      </div>
+      <div class="card-action">
+        <%= link_to 'Área do gestor', graphics_gestor_path %>
+        <%= link_to 'Área do analista de produtos', graphics_analista_path %>
+      </div>
+    </div>
+  </div>
+</div>
